@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ctnr-hs-input .ant-input-group-addon {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
