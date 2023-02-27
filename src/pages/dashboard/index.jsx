@@ -20,7 +20,7 @@ export default function Dashboard(){
     const handleFindRecommendations = (text) =>{
         const formData = new FormData();
         formData.append('text',text);
-
+        console.log(text)
         requestRecommendations(formData);
         
         var result = JSON.parse(localStorage.getItem("recommendations_data"));
